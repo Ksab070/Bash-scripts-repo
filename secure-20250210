@@ -1,0 +1,62 @@
+Feb  2 00:23:15 localhost sshd[5239]: Received disconnect from 192.168.225.2 port 50205:11: disconnected by user
+Feb  2 00:23:15 localhost sshd[5239]: Disconnected from user subhan 192.168.225.2 port 50205
+Feb  2 00:23:15 localhost sshd[5122]: pam_unix(sshd:session): session closed for user subhan
+Feb  2 00:23:32 localhost unix_chkpwd[20217]: password check failed for user (subhan)
+Feb  2 00:23:32 localhost sshd[20214]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.225.2  user=subhan
+Feb  2 00:23:34 localhost sshd[20214]: Failed password for subhan from 192.168.225.2 port 51341 ssh2
+Feb  2 00:23:41 localhost sshd[20214]: Accepted password for subhan from 192.168.225.2 port 51341 ssh2
+Feb  2 00:23:41 localhost sshd[20214]: pam_unix(sshd:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  2 12:38:07 localhost sshd[20221]: Received disconnect from 192.168.225.2 port 51341:11: disconnected by user
+Feb  2 12:38:07 localhost sshd[20221]: Disconnected from user subhan 192.168.225.2 port 51341
+Feb  2 12:38:07 localhost sshd[20214]: pam_unix(sshd:session): session closed for user subhan
+Feb  2 12:38:21 localhost sshd[26021]: Accepted password for subhan from 192.168.225.2 port 51963 ssh2
+Feb  2 12:38:21 localhost sshd[26021]: pam_unix(sshd:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  4 22:01:12 localhost sudo[37380]:  subhan : TTY=pts/3 ; PWD=/home/subhan/Devops/Jobber_project/Server/Shared-lib ; USER=root ; COMMAND=/bin/yum install ansible
+Feb  4 22:01:12 localhost sudo[37380]: pam_unix(sudo:session): session opened for user root(uid=0) by subhan(uid=1000)
+Feb  4 22:03:19 localhost sudo[37380]: pam_unix(sudo:session): session closed for user root
+Feb  4 22:07:34 localhost sudo[38964]:  subhan : TTY=pts/3 ; PWD=/home/subhan/Devops/Jobber_project/Server/Shared-lib ; USER=root ; COMMAND=/bin/dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+Feb  4 22:07:34 localhost sudo[38964]: pam_unix(sudo:session): session opened for user root(uid=0) by subhan(uid=1000)
+Feb  4 22:07:45 localhost sudo[38964]: pam_unix(sudo:session): session closed for user root
+Feb  4 22:07:50 localhost sudo[39074]:  subhan : TTY=pts/3 ; PWD=/home/subhan/Devops/Jobber_project/Server/Shared-lib ; USER=root ; COMMAND=/bin/yum install ansibe
+Feb  4 22:07:50 localhost sudo[39074]: pam_unix(sudo:session): session opened for user root(uid=0) by subhan(uid=1000)
+Feb  4 22:07:52 localhost sudo[39074]: pam_unix(sudo:session): session closed for user root
+Feb  4 22:07:54 localhost sudo[39095]:  subhan : TTY=pts/3 ; PWD=/home/subhan/Devops/Jobber_project/Server/Shared-lib ; USER=root ; COMMAND=/bin/yum install ansible
+Feb  4 22:07:54 localhost sudo[39095]: pam_unix(sudo:session): session opened for user root(uid=0) by subhan(uid=1000)
+Feb  4 22:12:51 localhost sudo[39095]: pam_unix(sudo:session): session closed for user root
+Feb  5 00:27:22 localhost sshd[26025]: Received disconnect from 192.168.225.2 port 51963:11: disconnected by user
+Feb  5 00:27:22 localhost sshd[26025]: Disconnected from user subhan 192.168.225.2 port 51963
+Feb  5 00:27:22 localhost sshd[26021]: pam_unix(sshd:session): session closed for user subhan
+Feb  5 00:27:39 localhost sshd[42636]: Accepted password for subhan from 192.168.225.2 port 53770 ssh2
+Feb  5 00:27:40 localhost sshd[42636]: pam_unix(sshd:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  5 01:10:19 localhost sshd[42640]: Received disconnect from 192.168.225.2 port 53770:11: disconnected by user
+Feb  5 01:10:19 localhost sshd[42640]: Disconnected from user subhan 192.168.225.2 port 53770
+Feb  5 01:10:19 localhost sshd[42636]: pam_unix(sshd:session): session closed for user subhan
+Feb  5 21:24:20 localhost sshd[47031]: Accepted password for subhan from 192.168.225.2 port 50091 ssh2
+Feb  5 21:24:20 localhost sshd[47031]: pam_unix(sshd:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  5 22:16:39 localhost sudo[49622]:  subhan : TTY=pts/3 ; PWD=/home/subhan/Devops/Ansible/Chapter1 ; USER=root ; COMMAND=/bin/yum install telnet
+Feb  5 22:16:39 localhost sudo[49622]: pam_unix(sudo:session): session opened for user root(uid=0) by subhan(uid=1000)
+Feb  5 22:16:57 localhost sudo[49622]: pam_unix(sudo:session): session closed for user root
+Feb  5 23:53:05 localhost sshd[47031]: pam_unix(sshd:session): session closed for user subhan
+Feb  5 23:53:16 localhost sshd[52392]: Accepted password for subhan from 192.168.225.2 port 51516 ssh2
+Feb  5 23:53:16 localhost sshd[52392]: pam_unix(sshd:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  6 01:01:15 localhost sshd[52396]: Received disconnect from 192.168.225.2 port 51516:11: disconnected by user
+Feb  6 01:01:15 localhost sshd[52396]: Disconnected from user subhan 192.168.225.2 port 51516
+Feb  6 01:01:15 localhost sshd[52392]: pam_unix(sshd:session): session closed for user subhan
+Feb  6 22:33:12 localhost polkitd[896]: Loading rules from directory /etc/polkit-1/rules.d
+Feb  6 22:33:12 localhost polkitd[896]: Loading rules from directory /usr/share/polkit-1/rules.d
+Feb  6 22:33:12 localhost polkitd[896]: Finished loading, compiling and executing 13 rules
+Feb  6 22:33:12 localhost polkitd[896]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Feb  6 22:33:13 localhost sshd[1104]: Server listening on 0.0.0.0 port 22.
+Feb  6 22:33:13 localhost sshd[1104]: Server listening on :: port 22.
+Feb  6 22:33:14 localhost systemd[1157]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Feb  6 22:33:14 localhost gdm-launch-environment][1134]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Feb  6 22:33:18 localhost polkitd[896]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb  6 22:33:24 localhost sshd[1346]: Accepted password for subhan from 192.168.225.2 port 53466 ssh2
+Feb  6 22:33:24 localhost systemd[1950]: pam_unix(systemd-user:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  6 22:33:25 localhost sshd[1346]: pam_unix(sshd:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  6 22:36:47 localhost sshd[1346]: pam_unix(sshd:session): session closed for user subhan
+Feb  6 22:36:57 localhost sshd[2884]: Accepted password for subhan from 192.168.225.2 port 53567 ssh2
+Feb  6 22:36:57 localhost sshd[2884]: pam_unix(sshd:session): session opened for user subhan(uid=1000) by subhan(uid=0)
+Feb  6 22:58:43 localhost sshd[2888]: Received disconnect from 192.168.225.2 port 53567:11: disconnected by user
+Feb  6 22:58:43 localhost sshd[2888]: Disconnected from user subhan 192.168.225.2 port 53567
+Feb  6 22:58:43 localhost sshd[2884]: pam_unix(sshd:session): session closed for user subhan
